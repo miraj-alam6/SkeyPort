@@ -1,0 +1,1 @@
+conftest.c:71: warning: conflicting types for built-in function 'isascii'

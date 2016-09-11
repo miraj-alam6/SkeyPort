@@ -1,0 +1,9 @@
+INCLUDES = -I$(top_srcdir)/include
+LDADD = ../lib/libskey.la
+bin_PROGRAMS = key keyint keysh
+key_SOURCES = skey.c
+keyint_SOURCES = skey.c
+keysh_SOURCES = skeysh.c
+man_MANS = key.1 keyinit.1 keysh.1 skey.1
+TESTS = regressiontest
+EXTRA_DIST = key.1 keyinit.1 keysh.1 skey.1 regressiontest

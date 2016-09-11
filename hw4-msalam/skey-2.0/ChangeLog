@@ -1,0 +1,317 @@
+commit acb1bcb2e321eedca6b708c4e38263409d338623
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Wed May 4 18:21:50 2016 -0400
+
+    Removed all clutter I think
+
+commit c0646d8b80e38f5baf5fe71a420985d53de49d65
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Wed May 4 18:18:38 2016 -0400
+
+    Removed an unnecessary file
+
+commit 78be74c1c1ff93fc5951f404c20f9f218b55d245
+Author: msalam <msalam@a-centos58.cs.stonybrook.edu>
+Date:   Wed May 4 18:05:23 2016 -0400
+
+    Updated man file for key.1 and trying to test install
+
+commit 5d1aac629e90ff0ed84a9158fd000627db555cc5
+Author: msalam <msalam@a-centos58.cs.stonybrook.edu>
+Date:   Wed May 4 15:21:41 2016 -0400
+
+    Removed some clutter
+
+commit 682c4d6781f5dae68bb7abf44bff6ba445f36a4d
+Author: msalam <msalam@a-centos58.cs.stonybrook.edu>
+Date:   Wed May 4 15:18:33 2016 -0400
+
+    buildall has been updated to make system directories based off of config.guess instead of uname.
+
+commit 1eb96f031abbc6148e22a757009e9f259c43a852
+Author: msalam <msalam@a-centos58.cs.stonybrook.edu>
+Date:   Wed May 4 14:45:09 2016 -0400
+
+    Added buildall to EXTRA_DIST for top level Makefile.am
+
+commit ec43ec5351b1adb1e034ac360d251d04a5192949
+Author: msalam <msalam@a-centos58.cs.stonybrook.edu>
+Date:   Wed May 4 13:09:19 2016 -0400
+
+    Make dist fully works, as well as make check and make install. Project done, will rectify now.
+
+commit 7d714d6bf833713251060522de73538b1416ca96
+Author: msalam <msalam@a-centos58.cs.stonybrook.edu>
+Date:   Wed May 4 12:10:25 2016 -0400
+
+    configure.ac has been updated to let make dist work
+
+commit be96780d0906d8b74d3b10260b3232b6cf452f48
+Author: msalam <msalam@a-centos58.cs.stonybrook.edu>
+Date:   Wed May 4 11:44:46 2016 -0400
+
+Removed unnecessary things from configure.ac
+
+commit e4b440827dd832ddb19d7404e883fdcdfac5b6a8
+Author: msalam <msalam@a-centos58.cs.stonybrook.edu>
+Date:   Wed May 4 11:34:23 2016 -0400
+
+buildall updated to be better
+
+
+commit 63feee8bed2db2d32d3855a67c54ce8de7fd4fa4
+Author: msalam <msalam@a-centos58.cs.stonybrook.edu>
+Date:   Wed May 4 11:20:39 2016 -0400
+
+    Updated the configure
+
+commit 46923991cd6275518817da682a6f978e24be70c1
+Author: msalam <msalam@a-centos58.cs.stonybrook.edu>
+Date:   Tue May 3 22:26:07 2016 -0400
+
+    Got libtool working. I think
+
+commit 7cc084f09b592ab3bdcbb668c4a18975b772ba37
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Tue May 3 18:34:52 2016 -0400
+
+    Added a regression test
+
+commit 87ce9b53e714282b194e3407133612213de5cd69
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Tue May 3 16:42:35 2016 -0400
+
+    Updated README to tell reader that the real README is in the skey-2.0 directory
+
+commit 077288d4f2596d217ac5d8c9ae8231889d74ac3a
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Tue May 3 16:39:49 2016 -0400
+
+    Rearranged folder arrangement so that configure.ac is in skey-2.0 directory
+
+commit ffefd555105795a61d7b5148f79eecfcfe9b7419
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Tue May 3 16:38:38 2016 -0400
+
+    Getting rid of clutter
+
+commit bd97e980cf0549a88f169a0173fdfab14e3c60f1
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Tue May 3 15:02:00 2016 -0400
+
+    Changed long to int for MDreverse, and added endian testing to configure.ac. Trying to make solaris work
+
+commit 74e4faa0d3cf850e4e258f588c456e4cb01fc476
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Tue May 3 12:25:47 2016 -0400
+
+    skey 2.0 folder has been made, only the new stuff.
+
+commit bf2837142dc7a5967d5b8e1fac13aa1561bdb15e
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Tue May 3 12:23:33 2016 -0400
+
+    Renamed folders
+
+commit f16d52f70c2bb8cb8070a07c57681b650fd9fd62
+Author: msalam <msalam@a-centos58.cs.stonybrook.edu>
+Date:   Tue May 3 00:21:39 2016 -0400
+
+    Removed aclocal.m4 It seems I still have to run autoreconf -i from a-centos no matter what
+
+commit f6f3cb087fb07b0c76c0d6bdc8199fdd2bd1fb2e
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Tue May 3 00:15:46 2016 -0400
+
+    Removed more clutter and update buildall to make with -Wall and -Werror
+
+commit e25a64e29a1a3bfc7b334e6af48adc5efc9b17f4
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Tue May 3 00:12:17 2016 -0400
+
+    Removed unncessary clutter
+
+commit 595a6d4ccacb0377e905b4564cf348701fe1ad8d
+Author: msalam <msalam@a-centos58.cs.stonybrook.edu>
+Date:   Tue May 3 00:03:06 2016 -0400
+
+    Updated test that buildall uses to be same as what grader will use
+
+commit bc9069bc3f37eb89ce93d0c373677e0bbd6c77a0
+Author: msalam <msalam@b-centos59.cs.stonybrook.edu>
+Date:   Mon May 2 23:44:08 2016 -0400
+
+    aclocal.m4 seems important to pass on
+
+commit 9c56b9d0442739e544fa6d8eaa9e5c75e67e759e
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Mon May 2 23:39:43 2016 -0400
+
+    Buildall script is functional
+
+commit dfae7bd20f105c0ac2cedb634045535e20094165
+Author: msalam <msalam@a-centos58.cs.stonybrook.edu>
+Date:   Mon May 2 22:46:49 2016 -0400
+
+    All files in src dir are split up into folders, and the folders can use each other successfully
+
+commit e4e0c1240604b1fed951e9764d7772f5c43b3d2c
+Merge: 151ccb9 e21a1cf
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Mon May 2 22:29:44 2016 -0400
+
+    Merge branch 'master' of ssh://scm.cs.stonybrook.edu:130/scm/cse376git-s16/hw4-msalam
+
+    Merge branch 'master' of ssh://scm.cs.stonybrook.edu:130/scm/cse376git-s16/hw4-msalam
+
+    Files need to be updated
+
+commit 151ccb9342369d012ae02a49b87c949829956887
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Mon May 2 22:28:27 2016 -0400
+
+    Cleaning up the organization of the file
+
+commit e21a1cf6d66000b0a2105cde04e7a5ddf355bf0c
+Author: msalam <msalam@a-centos58.cs.stonybrook.edu>
+Date:   Mon May 2 21:12:41 2016 -0400
+
+    added man pages to skey dir
+
+commit a543a7f2a81bc844b5872883c6f9fb0eecf41990
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Mon May 2 20:39:19 2016 -0400
+
+    Making some progress, full program worked on local machine, now to test on centos
+
+commit 2d1f552a56ab1e8af243efc0672b6855205e5166
+Author: msalam <msalam@a-centos58.cs.stonybrook.edu>
+Date:   Mon May 2 20:02:30 2016 -0400
+
+    Updated configure.ac
+
+commit ae7fd34cbcfa3998fe614d57fd8ed6e2fc1fdba7
+Author: msalam <msalam@a-centos58.cs.stonybrook.edu>
+Date:   Mon May 2 16:24:36 2016 -0400
+
+    Errors are now code specific, Makefiles are generated correctly.
+
+commit 2e47c634872d27640b29d0649f7fc4d541b2e008
+Author: msalam <msalam@a-centos58.cs.stonybrook.edu>
+Date:   Mon May 2 16:12:07 2016 -0400
+
+    No progress
+
+commit b1ac9ad8c455a648399ef118edae6db08c2a4db4
+Author: msalam <msalam@a-centos58.cs.stonybrook.edu>
+Date:   Mon May 2 15:48:07 2016 -0400
+
+    Still no progress
+
+commit f718e5ed2c8fe2f107bd529bb8726876f68988d6
+Author: msalam <msalam@a-centos58.cs.stonybrook.edu>
+Date:   Mon May 2 15:26:18 2016 -0400
+
+    Trying to do autotools, no progress
+
+commit 672d622487fbdfb1f80c853e1402a4ef63a9e23b
+Author: msalam <msalam@a-centos58.cs.stonybrook.edu>
+Date:   Mon May 2 15:20:56 2016 -0400
+
+    Fixed md4.c so that it compiles on solaris with all the new changes
+
+commit 124502d8f61a1f716a9f94c5a62cf30a84255f96
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Sun May 1 22:19:11 2016 -0400
+
+    Trying to make autotools work. Stuck
+
+commit 3b983cd198bb0c23f035f65e4fd61f29876232c6
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Sun May 1 20:25:12 2016 -0400
+
+    Removed bad forward declarations and externs from skeyinit.c
+
+commit 4715b9ba3b85049e0bd7d6104f8b4212658410a8
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Sun May 1 20:00:44 2016 -0400
+
+    Got rid of bad forward declarations and bad externs in skey.c
+
+commit f9f78033fe14f6f79d8255e888cc354948db788b
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Sun May 1 19:47:33 2016 -0400
+
+    Custom setenv is only used when setenv is already not defined
+
+commit 16565f631689f2415b6459318c123125e30ea91a
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Sun May 1 19:22:41 2016 -0400
+
+    Fixed a remnant of pre-ansi code in skeyloginc..
+
+commit d7a2fa0455aea10c7db4a75e3636544b21f0a7de
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Sun May 1 19:22:04 2016 -0400
+
+    defining gethostname is now dependent on directly testing for the feature
+
+commit 6ec947f9093c03630d5f2cf20cba94168c47adb5
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Sun May 1 19:21:02 2016 -0400
+
+    defining SIGVOID is no longe dependent on a faulty(secondary information) ifdef
+
+commit e1c725ee269a1c1abb9ee89971582db90ef8f077
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Sun May 1 13:45:53 2016 -0400
+
+    Updated Endianness macro handling to conform to autotools naming convention
+
+commit 5c5b14055ed01aaea5f772c43381181e49bf12a3
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Sun May 1 13:24:09 2016 -0400
+
+    Updated skeysh to use macro names that follow naming convention of autotools
+
+commit 60845c58fa44d201b1b5d42c4d8f670f0a129171
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Sun May 1 13:01:31 2016 -0400
+
+    Skeysh updated so that getenv is only defined if it does not already exist
+
+commit 4f1fa45444355b2a1670c30d742629330516996e
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Sun May 1 00:42:35 2016 -0400
+
+    Added -e flag option to turn echoing on
+
+commit 94864bf0b8dfe0e5f854d690176d92636be19881
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Sat Apr 30 13:01:48 2016 -0400
+
+    Updated version number in Skey
+
+commit 613faf339cc08512272cd3848ef913693dbbac25
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Sat Apr 30 12:41:53 2016 -0400
+
+    Changed a few longs to ints in md4.h and md4.c 64 bit systems should work now.
+
+commit 36d6cf685d5a5ddef22bf63efffe93881d3267f9
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Wed Apr 27 12:49:05 2016 -0400
+
+    Made build directory
+
+commit af4907744bfcaebc41e2dc0508ac8f9d1e8c35d9
+Author: Miraj <miraj.alam@stonybrook.edu>
+Date:   Tue Apr 26 12:02:52 2016 -0400
+
+    First commit
+
+commit e77a24022d7ab5da6ad57a95160fba81da74d6e8
+Author: Erez Zadok <ezk@cs.sunysb.edu>
+Date:   Sun Aug 31 17:55:08 2014 -0400
+
+    Initial commit for HW4

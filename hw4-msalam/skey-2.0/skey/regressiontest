@@ -1,0 +1,17 @@
+#!/bin/sh
+
+out=`echo johndoe | ./key 88 ka9q2 | tail -1`
+goal="NOLL AMRA FEE HOST BELA DEFT"
+
+echo Is this updating
+echo GOAL:$goal:
+echo OUT::$out:
+
+if test "$out" = "$goal"
+then
+	echo 'You passed the test'
+	exit 0
+else
+	echo 'You failed the test'
+	exit 1
+fi

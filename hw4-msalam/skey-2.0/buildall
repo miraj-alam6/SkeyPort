@@ -1,0 +1,16 @@
+#!/bin/sh
+MYSYSTEM=`./config.guess`
+cd ../
+mkdir -p build
+cd build/
+echo $MYSYSTEM
+mkdir -p $MYSYSTEM
+cd $MYSYSTEM
+mkdir -p lib
+mkdir -p skey
+mkdir -p include
+mkdir -p other
+SRCDIR=../../skey-2.0
+$SRCDIR/configure --enable-shared && make CFLAGS='-Wall -Werror'
+cd skey
+echo johndoe | ./key 88 ka9q2

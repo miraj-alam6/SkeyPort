@@ -1,0 +1,12 @@
+ 
+Differences from HW3 version of this Project:
+	config.h is generated from autotools rather than a config-skey
+	Several Makefile.am files are used instead of a single Makefile.tmpl
+	make dist option for making a tarball of the project.
+	shared libraries and static libraries
+	Look at README for more details.
+Difference from original skey package:
+	Bad forward declarations and externs have been removed that 
+	Pre-Ansi Coding Style Has been removed
+	-Wall and -Werror warnings have been removed.
+	All features are directly tested rather than relying on second-hand information

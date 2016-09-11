@@ -1,0 +1,56 @@
+NAME: MIRAJ ALAM
+ID: 108757323
+DATE SUBMITTED
+
+IMPORTANT FEATURES:
+
+  All features for this homework have been implemented EXCEPT maybe that special solaris requirement in Part 3 of the grading sheet. I was not too sure what that meant, so I may or may not have that feature.
+
+  All 9 systems provide the same output for the same input.
+
+  My configure.ac and top level Makefile.am  are in the skey-2.0 directory
+
+  The same directory also has a buildall script that can be run. The script is a quick way to test functionality and I hope it can help the process of grading.
+  buiLdall will configure and build the whole program and run it. It will create a build directory in the same parent
+  directory that skey-2.0 is part of, and inside the build directory it will make a subdirectory that is based on the system name from config.guess.
+  And inside the subdirectory it will create all the necessary subfolders and such where the actual Makefiles can reside. And then the buildall will
+  run make with -Wall and -Werror on each of the Makefiles recursively and then run the program in in the skey subdirectory with the password johndoe and the
+  actual line for the program is ./key 88 ka9q2. The output is the correct output as described by the assignment.
+
+  make dist works
+
+  make install works
+
+  make check works and passes the test with success for all systems.
+
+  termio termios sgtty is very clear usage in skeysubr.c
+
+  debugging infrastructure is clean. I use two macros DEBUG_ON_ENTER and DEBUG_ON_EXIT, both of the macros always have only one line of code after
+  it, except for main which needed some custom code that needed to loop through argv(a block of code instead of just 1 line). For DEBUG_ON_ENTER the
+  line of code is what will be printed for debugging level 3, and the line of code after DEBUG_ON_EXIT is what is printed if  debugging level 2 and debugging level 3.You can look at many examples
+  of me using this way of debugging in the code for skeysubr.c and skey.c. The actual code for the macros are in skey.h
+
+  static and shared libraries both work
+
+  CHANGELOG documents all changes using the git log of my package.
+
+  AUTHORS files says all the authors
+
+  NEWS file describes the changes between this HW assignment package and previous package
+
+  The custom setenv and getenv of skeysh.c are used when its not defined
+
+  Custom getenv and setenv are not used when it is already defined.
+
+  README is complete (you're reading right now)
+
+EXTRA CREDIT:
+
+  Last commit was on 5/5/16, thus I should be getting 4 points extra credit since it is 2 days before the due date.
+
+
+
+MORE INFO:
+
+  Look at changelog for more detailed description of all the changes as they were made.
+
